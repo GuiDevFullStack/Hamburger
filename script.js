@@ -47,7 +47,7 @@ showAll(filtrarProdutos);
 }
 
 
-buttonFilter.addEventListener("click", () => showAll(filtrarProdutos));
+buttonFilter.addEventListener("click", () => filtrarVegano);
 buttonReduce.addEventListener("click", mostrarTotal);
 buttonMap.addEventListener("click", salesall);
 buttonShow.addEventListener("click", () => showAll(menuOptions));
