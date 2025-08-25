@@ -41,9 +41,10 @@ function mostrarTotal() {
 }
 
 
+function filtrarVegano() {
 const filtrarProdutos = menuOptions.filter(product => product.vegan === true);
 showAll(filtrarProdutos);
-
+}
 
 
 buttonFilter.addEventListener("click", () => showAll(filtrarProdutos));
